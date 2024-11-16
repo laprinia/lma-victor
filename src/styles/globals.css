@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +41,20 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+* {
+  font-family: 'Jersey 15', sans-serif;
+}
+
+p{
+  font-size: 4rem;
+  @media (max-width: 800px) {
+      font-size:1rem;
+  }
+  @media (max-width: 1000px) {
+    font-size: 3rem;
+  }
+
+
 }
